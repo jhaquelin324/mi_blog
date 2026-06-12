@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog de Masmelos</title>
+  <link rel="stylesheet" href="css.css" />
+
+</head>
+<body>
+  <header>
+    <img src="imagenes/logo.png" alt="Logo ITPM" class="logo" />
+    <h1>PROGRAMA DE INDUSTRIA Y EXPORTACIÓN DE VENTA DE MASMELOS</h1>
+    <p>Bienvenido(a) a mi pagina en la web</p>
+  </header>
+
+  <nav>
+    <a href="#" data-seccion="inicio">Inicio</a>
+    <a href="#" data-seccion="sobre-mi">Sobre mí</a>
+    <a href="#" data-seccion="productos">Productos</a>
+    <a href="#" data-seccion="nosotros">Sobre Nosotros</a>
+    <a href="#" data-seccion="contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <section id="inicio" class="seccion activa">
+      <p>Este es el punto de partida para conocer nuestra empresa familiar dedicada a los masmelos artesanales.</p>
+    </section>
+
+    <section id="sobre-mi" class="seccion">
+      <h2>Sobre mí</h2>
+      <img src="imagenes/mi foto.jpeg" alt="Mi foto" class="foto" />
+      <p>Hola, soy <strong>Jhaquelin Huanca Llusco</strong>, propietaria de la empresa de masmelos.</p>
+    </section>
+
+    <section id="productos" class="seccion">
+      <h2>Nuestros Masmelos</h2>
+      <div class="galeria" id="galeria"></div>
+      <div class="galeria" id="galeria-productos">
+  <div class="producto">
+    <img src="imagenes/imag1.jpeg" alt="Masmelo Clásico">
+    <p>Masmelo Clásico</p>
+      <p>precio:6bs </p>
+  </div>
+  <div class="producto">
+    <img src="imagenes/imag2.jpeg" alt="Masmelo de chocolate">
+    <p>Masmelo de chocolate</p>
+    <p>precio:8bs </p>
+  </div>
+  <div class="producto">
+    <img src="imagenes/imag3.jpeg" alt="Masmelo bananas">
+    <p>Masmelo bananas</p>
+    <p>precio:7bs </p>
+  </div>
+  <div class="producto">
+    <img src="imagenes/imag4.jpeg" alt="Masmelo barquillos con quinua">
+    <p>Masmelo barquillos con quinua</p>
+    <p>precio:10bs </p>
+  </div>
+   <div class="producto">
+    <img src="imagenes/descarga.jpg" alt="Masmelo con coco">
+    <p>Masmelo barquillos con quinua</p>
+    <p>precio:10bs </p>
+  </div>
+</div>
+
+      <button id="agregarProducto">Agregar nuevo producto</button>
+    </section>
+
+    <section id="nosotros" class="seccion">
+      <h2>Sobre Nosotros</h2>
+      <p>Somos una empresa familiar boliviana dedicada a la elaboración de masmelos artesanales. Estamos ubicados en El Alto, La Paz.</p>
+       <img src="imagenes/imag5.jpeg" alt="productos terminados">
+    </section>
+
+    <section id="contacto" class="seccion">
+      <h2>Contacto</h2>
+      <p><strong>Correo:</strong> ventas@masmelosdelicia.bo</p>
+      <p><strong>WhatsApp:</strong> +591 69911310</p>
+    </section>
+  </main>
+    <script src="javascript.js"></script>
+
+  <footer>
+    <p>© 2025 ITPM | Proyecto de Blog Personal</p>
+    <p><a href="https://itpm.edu.bo/" target="_blank" class="link-itpm">Ir al sitio oficial del ITPM</a></p>
+  </footer>
+
+  
+</body>
+</html>
